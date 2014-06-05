@@ -1,2 +1,2 @@
-DIR="."
+DIR=`dirname $0`
 node --expose-gc $DIR/../tscheck/tscheck.js $*
