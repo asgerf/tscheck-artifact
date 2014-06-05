@@ -1,0 +1,34 @@
+L.noConflict().WMS: expected {new(baseUrl:string, options:L.WMSOptions) => L.WMS} but found nothing
+L.TileLayer.WMS(): expected L.WMS but found object
+L.TileLayer.Canvas(): expected L.Canvas but found object
+L.TileLayer.Canvas().drawTile(HTMLCanvasElement,L.Point,number): expected L.Canvas but found nothing
+L.TileLayer.Canvas().redraw(): expected L.Canvas but found nothing
+L.WMS: expected {new(baseUrl:string, options:L.WMSOptions) => L.WMS} but found nothing
+L.Canvas: expected {new(options?:L.TileLayerOptions) => L.Canvas} but found nothing
+L.GeoJSON.coordsToLatlng: expected {(coords:number[], reverse?:boolean) => L.LatLng} but found nothing
+L.GeoJSON.coordsToLatlngs: expected {(coords:number[], levelsDeep?:number, reverse?:boolean) => L.LatLng[]} but found nothing
+L.Control.Zoom(): expected L.Zoom but found object
+L.Control.Attribution(): expected L.Attribution but found object
+L.Control.Layers(): expected L.Layers but found object
+L.Control.Layers().addEventListener: expected {(type:string, fn:{(e:L.LeafletEvent) => void}, context?:any) => L.IEventPowered, (eventMap:any, context?:any) => L.IEventPowered} but found nothing
+L.Control.Layers().removeEventListener: expected {(type:string, fn?:{(e:L.LeafletEvent) => void}, context?:any) => L.IEventPowered, (eventMap:any, context?:any) => L.IEventPowered} but found nothing
+L.Control.Layers().hasEventListeners: expected {(type:string) => boolean} but found nothing
+L.Control.Layers().fireEvent: expected {(type:string, data?:any) => L.IEventPowered} but found nothing
+L.Control.Layers().on: expected {(type:string, fn:{(e:L.LeafletEvent) => void}, context?:any) => L.IEventPowered, (eventMap:any, context?:any) => L.IEventPowered} but found nothing
+L.Control.Layers().off: expected {(type:string, fn?:{(e:L.LeafletEvent) => void}, context?:any) => L.IEventPowered, (eventMap:any, context?:any) => L.IEventPowered} but found nothing
+L.Control.Layers().fire: expected {(type:string, data?:any) => L.IEventPowered} but found nothing
+L.Control.Scale(): expected L.Scale but found object
+L.Control.Scale().setPosition(string): expected L.Control but found object
+L.Control(L.ControlOptions).onAdd: expected {(map:L.Map) => HTMLElement} but found nothing
+L.Control(L.ControlOptions).onRemove: expected {(map:L.Map) => void} but found nothing
+L.Zoom: expected {new(options?:L.ZoomOptions) => L.Zoom} but found nothing
+L.Attribution: expected {new(options?:L.AttributionOptions) => L.Attribution} but found nothing
+L.Layers: expected {new(baseLayers?:any, overlays?:any, options?:L.LayersOptions) => L.Layers} but found nothing
+L.Scale: expected {new(options?:L.ScaleOptions) => L.Scale} but found nothing
+L.Util.falseFn(): expected {() => boolean} but found value false
+L.DomEvent.stopPropagation(Event): expected L.DomEvent but found object
+L.DomEvent.preventDefault(Event): expected L.DomEvent but found object
+L.DomEvent.stop(Event): expected L.DomEvent but found object
+L.DomUtil.testProp(String[]): expected string but found value false|object
+L.DomUtil.getPosition(HTMLElement): expected L.Point but found nothing
+L.CRS.Simple.code: expected string but found nothing

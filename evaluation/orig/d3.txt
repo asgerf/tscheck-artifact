@@ -1,0 +1,61 @@
+d3.time.second.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.minute.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.hour.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.day.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.week.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.monday.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.tuesday.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.wednesday.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.thursday.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.friday.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.saturday.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.month.utc.utc: expected D3.Time.Interval but found nothing
+d3.time.year.utc.utc: expected D3.Time.Interval but found nothing
+d3.scale.identity().rangeRound: expected {(values:any[]) => D3.Scale.QuantitiveScale} but found nothing
+d3.scale.theshold: expected {() => D3.Scale.ThresholdScale} but found nothing
+d3.layout.bundle()(D3.Layout.GraphLink[])[0].id: expected number but found nothing
+d3.layout.chord().sortGroups()[0]: expected number but found object
+d3.layout.chord().sortChords()[0].source: expected D3.Layout.GraphNode but found nothing
+d3.layout.hierarchy().nodes: expected {(root:D3.Layout.GraphNode) => D3.Layout.GraphNode[]} but found nothing
+d3.layout.treeMap: expected {() => D3.Layout.TreeMapLayout} but found nothing
+d3.geo.projectionMutator({(lambda:number, phi:number) => number[]}).invert: expected {(point:number[]) => number[]} but found nothing
+d3.geo.azimuthalEqualArea.raw().invert: expected {(point:number[]) => number[]} but found nothing
+d3.geo.azimuthalEquidistant.raw().invert: expected {(point:number[]) => number[]} but found nothing
+d3.geo.conicConformal.raw().rotate: expected {() => number[], (rotation:number[]) => D3.Geo.Projection} but found nothing
+d3.geo.conicEquidistant.raw().rotate: expected {() => number[], (rotation:number[]) => D3.Geo.Projection} but found nothing
+d3.geo.conicEqualArea.raw().rotate: expected {() => number[], (rotation:number[]) => D3.Geo.Projection} but found nothing
+d3.geo.equirectangular.raw().invert: expected {(point:number[]) => number[]} but found nothing
+d3.geo.gnomonic.raw().invert: expected {(point:number[]) => number[]} but found nothing
+d3.geo.mercator.raw().invert: expected {(point:number[]) => number[]} but found nothing
+d3.geo.othographic: expected {raw: {() => D3.Geo.Projection}, () => D3.Geo.Projection} but found nothing
+d3.geo.stereographic.raw().invert: expected {(point:number[]) => number[]} but found nothing
+d3.geo.transverseMercator.raw().invert: expected {(point:number[]) => number[]} but found nothing
+d3.geo.stream(D3.Geo.GeoJSON,any): expected D3.Geo.Stream but found nothing
+d3.geo.graticule().lines().coordinates: expected number[][] but found nothing
+d3.geo.greatArc.distance: expected {() => number} but found nothing
+d3.geo.greatArc.source: expected {() => any, (source:any) => D3.Geo.GreatArc} but found nothing
+d3.geo.greatArc.target: expected {() => any, (target:any) => D3.Geo.GreatArc} but found nothing
+d3.geo.greatArc.precision: expected {() => number, (precision:number) => D3.Geo.GreatArc} but found nothing
+d3.geo.greatArc().coordinates: expected number[][] but found nothing
+d3.geom.voronoi.x: expected {() => {(d:any) => any}, (accesor:{(d:any) => any}) => any} but found nothing
+d3.geom.voronoi.y: expected {() => {(d:any) => any}, (accesor:{(d:any) => any}) => any} but found nothing
+d3.geom.quadtree.add: expected {(point:D3.Geom.Point) => D3.Geom.Quadtree} but found nothing
+d3.geom.quadtree.visit: expected {(callback:any) => D3.Geom.Quadtree} but found nothing
+d3.geom.quadtree.x: expected {() => {(d:any) => any}, (accesor:{(d:any) => any}) => D3.Geom.Quadtree} but found nothing
+d3.geom.quadtree.y: expected {() => {(d:any) => any}, (accesor:{(d:any) => any}) => D3.Geom.Quadtree} but found nothing
+d3.geom.quadtree.size: expected {(size:number[]) => D3.Geom.Quadtree} but found nothing
+d3.geom.quadtree().add(D3.Geom.Point): expected D3.Geom.Quadtree but found nothing
+d3.geom.quadtree().visit(any): expected D3.Geom.Quadtree but found nothing
+d3.geom.polygon.area: expected {() => number} but found nothing
+d3.geom.polygon.centroid: expected {() => number[]} but found nothing
+d3.geom.polygon.clip: expected {(subject:D3.Geom.Polygon) => D3.Geom.Polygon} but found nothing
+d3.geom.polygon(D3.Geom.Vertice[]).area: expected {() => number} but found nothing
+d3.geom.hull.x: expected {() => {(d:any) => any}, (accesor:{(d:any) => any}) => any} but found nothing
+d3.geom.hull.y: expected {() => {(d:any) => any}, (accesor:{(d:any) => any}) => any} but found nothing
+d3.touches(any)[0]: expected number but found object
+d3.transition().duration: expected {(duration:number) => D3.Transition.Transition, (duration:{(data:any, index:number) => any}) => D3.Transition.Transition} but found nothing
+d3.select(string).attr: expected {(name:string) => string, (name:string, value:any) => D3.Selection, (name:string, valueFunction:{(data:any, index:number) => any}) => D3.Selection, (attrValueMap:any) => D3.Selection} but found nothing
+d3.select(EventTarget).attr: expected {(name:string) => string, (name:string, value:any) => D3.Selection, (name:string, valueFunction:{(data:any, index:number) => any}) => D3.Selection, (attrValueMap:any) => D3.Selection} but found nothing
+d3.selectAll(string).attr: expected {(name:string) => string, (name:string, value:any) => D3.Selection, (name:string, valueFunction:{(data:any, index:number) => any}) => D3.Selection, (attrValueMap:any) => D3.Selection} but found nothing
+d3.selectAll(EventTarget[]).attr: expected {(name:string) => string, (name:string, value:any) => D3.Selection, (name:string, valueFunction:{(data:any, index:number) => any}) => D3.Selection, (attrValueMap:any) => D3.Selection} but found nothing
+D3: expected module:D3 but found nothing

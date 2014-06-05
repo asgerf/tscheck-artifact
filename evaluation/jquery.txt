@@ -1,0 +1,2 @@
+jQuery.fx.off: expected boolean but found nothing [LOW] [FIXABLE]
+jQuery.error(any): expected JQuery but found nothing [SPURIOUS]

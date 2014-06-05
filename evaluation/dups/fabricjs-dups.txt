@@ -1,0 +1,1 @@
+fabric.Point(any,any).add(fabric.IPoint).tostring: expected {() => string} but found nothing [HIGH] [FIXABLE]

@@ -1,0 +1,12 @@
+Box2D.Collision.b2ContactID().Key: expected number but found nothing [HIGH] [FIXABLE] {typo}
+Box2D.Collision.b2DynamicTree().GetFatAABB(Box2D.Collision.b2DynamicTreeNode): expected Box2D.Collision.b2AABB but found nothing [SPURIOUS]
+Box2D.Collision.b2Manifold().m_type: expected number but found nothing [HIGH] [FIXABLE] {constructor should be hidden}
+Box2D.Collision.b2ManifoldPoint().m_localpoint: expected Box2D.Common.Math.b2Vec2 but found nothing [HIGH] [FIXABLE] {typo}
+Box2D.Collision.b2OBB: expected {new() => Box2D.Collision.b2OBB} but found nothing [HIGH] [FIXABLE] {internal constructor}
+Box2D.Collision.Shapes.b2EdgeChainDef().vertices: expected Box2D.Common.Math.b2Vec2 but found object [HIGH] [FIXABLE] {wrong type}
+Box2D.Collision.Shapes.b2EdgeShape(Box2D.Common.Math.b2Vec2,Box2D.Common.Math.b2Vec2).Corner1IsConvex(): expected boolean but found nothing [SPURIOUS]
+Box2D.Collision.Shapes.b2EdgeShape(Box2D.Common.Math.b2Vec2,Box2D.Common.Math.b2Vec2).Corner2IsConvex(): expected boolean but found nothing [SPURIOUS]
+Box2D.Collision.Shapes.b2Shape.startsInsideCollide: expected number but found nothing [HIGH] [FIXABLE]
+Box2D.Dynamics.Contacts.b2Contact().GetFixtureA(): expected Box2D.Dynamics.b2Fixture but found nothing [HIGH] [FIXABLE] {internal constructor}
+Box2D.Dynamics.Joints.b2PullyJoint: expected {new() => Box2D.Dynamics.Joints.b2PullyJoint} but found nothing [HIGH] [FIXABLE] {typo}
+Box2D.Dynamics.Joints.b2PullyJointDef: expected {new() => Box2D.Dynamics.Joints.b2PullyJointDef} but found nothing [HIGH] [FIXABLE] {typo}

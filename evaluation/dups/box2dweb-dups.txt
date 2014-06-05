@@ -1,0 +1,2 @@
+Box2D.Dynamics.Contacts.b2Contact().GetFixtureB(): expected Box2D.Dynamics.b2Fixture but found nothing [HIGH] [FIXABLE]
+Box2D.Dynamics.Contacts.b2Contact().GetNext(): expected Box2D.Dynamics.Contacts.b2Contact but found nothing [HIGH] [FIXABLE]

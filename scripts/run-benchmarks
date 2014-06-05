@@ -1,0 +1,19 @@
+set -e
+DIR="."
+#`basedir $0`
+TESTDIR="$DIR/../benchmarks"
+OUTDIR="$DIR/../output"
+mkdir -p $OUTDIR
+decls=$TESTDIR/*/*.d.ts
+#decls=$(find $TESTDIR -name "*.d.ts")
+for decl in $decls
+do
+	prefix=${decl%*.d.ts}
+	jsfile=$prefix.js
+	if [ -f $jsfile ]
+	then
+		name=$(basename $prefix)
+		echo $name
+		$DIR/tscheck $decl >$OUTDIR/$name.txt --verbose $*
+	fi
+done

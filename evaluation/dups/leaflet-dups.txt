@@ -1,0 +1,6 @@
+L.Control.Layers().removeEventListener: expected {(type:string, fn?:{(e:L.LeafletEvent) => void}, context?:any) => L.IEventPowered, (eventMap:any, context?:any) => L.IEventPowered} but found nothing [HIGH] [FIXABLE]
+L.Control.Layers().hasEventListeners: expected {(type:string) => boolean} but found nothing [HIGH] [FIXABLE]
+L.Control.Layers().fireEvent: expected {(type:string, data?:any) => L.IEventPowered} but found nothing [HIGH] [FIXABLE]
+L.Control.Layers().on: expected {(type:string, fn:{(e:L.LeafletEvent) => void}, context?:any) => L.IEventPowered, (eventMap:any, context?:any) => L.IEventPowered} but found nothing [HIGH] [FIXABLE]
+L.Control.Layers().off: expected {(type:string, fn?:{(e:L.LeafletEvent) => void}, context?:any) => L.IEventPowered, (eventMap:any, context?:any) => L.IEventPowered} but found nothing [HIGH] [FIXABLE]
+L.Control.Layers().fire: expected {(type:string, data?:any) => L.IEventPowered} but found nothing [HIGH] [FIXABLE]

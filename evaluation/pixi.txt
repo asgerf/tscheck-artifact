@@ -1,0 +1,6 @@
+PIXI.gl: expected WebGLRenderingContext but found nothing [INIT]
+PIXI.MaskFilter: expected {(graphics:PIXI.Graphics) => void} but found nothing [HIGH] [FIXABLE]
+PIXI.AssetLoader(string[],boolean).onComplete: expected PIXI.IBasicCallback but found nothing [HIGH] [FIXABLE]
+PIXI.AssetLoader(string[],boolean).onProgress: expected PIXI.IBasicCallback but found nothing [HIGH] [FIXABLE]
+PIXI.DisplayObject.autoDetectRenderer: expected {(width:number, height:number, view?:HTMLCanvasElement, transparent?:boolean) => PIXI.IPixiRenderer} but found nothing [HIGH] [FIXABLE]
+PIXI.Ellipse(number,number,number,number).getBounds: expected {() => PIXI.Rectangle} but found nothing [IMPL]

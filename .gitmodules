@@ -1,0 +1,3 @@
+[submodule "tscheck"]
+	path = tscheck
+	url = https://github.com/asgerf/tscheck

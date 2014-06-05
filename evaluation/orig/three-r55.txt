@@ -1,0 +1,355 @@
+THREE.GeometryLibrary: expected THREE.Geometry[] but found nothing
+THREE.Object3DLibrary: expected THREE.Object3D[] but found nothing
+THREE.MaterialLibrary: expected THREE.Material[] but found nothing
+THREE.TextureLibrary: expected THREE.Texture[] but found nothing
+THREE.FontUtils.getFace(): expected THREE.Face but found nothing
+THREE.GeometryUtils.randomPointsInGeometry(THREE.Geometry,number): expected THREE.Vector3 but found object
+THREE.UniformsUtils.merge(Object[])['0'].type: expected string but found nothing
+THREE.UniformsUtils.merge(THREE.Uniforms[])['0'].type: expected string but found nothing
+THREE.CullFace: expected {} but found nothing
+THREE.FrontFaceDirection: expected {} but found nothing
+THREE.ShadowMapType: expected {} but found nothing
+THREE.Side: expected {} but found nothing
+THREE.Shading: expected {} but found nothing
+THREE.Colors: expected {} but found nothing
+THREE.Blending: expected {} but found nothing
+THREE.BlendingEquation: expected {} but found nothing
+THREE.BlendingDstFactor: expected {} but found nothing
+THREE.BlendingSrcFactor: expected {} but found nothing
+THREE.Combine: expected {} but found nothing
+THREE.Mapping: expected {} but found nothing
+THREE.Wrapping: expected {} but found nothing
+THREE.TextureFilter: expected {} but found nothing
+THREE.TextureDataType: expected {} but found nothing
+THREE.PixelType: expected {} but found nothing
+THREE.PixelFormat: expected {} but found nothing
+THREE.CompressedPixelFormat: expected {} but found nothing
+THREE.BufferGeometry().verticesNeedUpdate: expected boolean but found nothing
+THREE.Sphere(THREE.Vector3,number).clampPoint(THREE.Vector3,THREE.Vector3): expected THREE.Sphere but found object
+THREE.Geometry().materials: expected THREE.Material[] but found nothing
+THREE.Geometry().faceUvs[0]: expected THREE.Vector2 but found object
+THREE.Geometry().animation: expected THREE.AnimationData but found nothing
+THREE.Matrix4(number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number).setPosition(THREE.Vector3): expected THREE.Vector3 but found THREE.Matrix4|THREE.Matrix4
+THREE.Ray(THREE.Vector3,THREE.Vector3).recastSelf: expected {(t:number) => THREE.Ray} but found nothing
+THREE.Object3D().boundRadius: expected number but found nothing
+THREE.Object3D().boundRadiusScale: expected number but found nothing
+THREE.Object3D().deallocate: expected {() => void} but found nothing
+THREE.Projector().projectScene(THREE.Scene,THREE.Camera,boolean,boolean).objects[0]: expected THREE.Object3D but found object
+THREE.Raycaster(THREE.Vector3,THREE.Vector3,number,number).origin: expected THREE.Vector3 but found nothing
+THREE.Raycaster(THREE.Vector3,THREE.Vector3,number,number).direction: expected THREE.Vector3 but found nothing
+THREE.Vector3(number,number,number).projectPoint: expected {(m:THREE.Matrix4) => THREE.Vector3} but found nothing
+THREE.Vector4(number,number,number,number).distanceTo: expected {(v:THREE.Vector3) => number} but found nothing
+THREE.Vector4(number,number,number,number).distanceToSquared: expected {(v:THREE.Vector3) => number} but found nothing
+THREE.Box2(THREE.Vector2,THREE.Vector2).distanceToPoint(THREE.Vector2): expected THREE.Vector2 but found number
+THREE.Box2(THREE.Vector2,THREE.Vector2).equals(THREE.Box2): expected boolean but found nothing
+THREE.Box3(THREE.Vector3,THREE.Vector3).distanceToPoint(THREE.Vector3): expected THREE.Vector3 but found number
+THREE.Box3(THREE.Vector3,THREE.Vector3).equals(THREE.Box3): expected boolean but found nothing
+THREE.Camera().boundRadius: expected number but found nothing
+THREE.Camera().boundRadiusScale: expected number but found nothing
+THREE.Camera().deallocate: expected {() => void} but found nothing
+THREE.OrthographicCamera(number,number,number,number,number,number).boundRadius: expected number but found nothing
+THREE.OrthographicCamera(number,number,number,number,number,number).boundRadiusScale: expected number but found nothing
+THREE.OrthographicCamera(number,number,number,number,number,number).deallocate: expected {() => void} but found nothing
+THREE.PerspectiveCamera(number,number,number,number).boundRadius: expected number but found nothing
+THREE.PerspectiveCamera(number,number,number,number).boundRadiusScale: expected number but found nothing
+THREE.PerspectiveCamera(number,number,number,number).deallocate: expected {() => void} but found nothing
+THREE.Light(number).boundRadius: expected number but found nothing
+THREE.Light(number).boundRadiusScale: expected number but found nothing
+THREE.Light(number).deallocate: expected {() => void} but found nothing
+THREE.AmbientLight(number).boundRadius: expected number but found nothing
+THREE.AmbientLight(number).boundRadiusScale: expected number but found nothing
+THREE.AmbientLight(number).deallocate: expected {() => void} but found nothing
+THREE.RenderTarget: expected {new() => THREE.RenderTarget} but found nothing
+THREE.DirectionalLight(number,number).boundRadius: expected number but found nothing
+THREE.DirectionalLight(number,number).boundRadiusScale: expected number but found nothing
+THREE.DirectionalLight(number,number).deallocate: expected {() => void} but found nothing
+THREE.HemisphereLight(number,number,number).boundRadius: expected number but found nothing
+THREE.HemisphereLight(number,number,number).boundRadiusScale: expected number but found nothing
+THREE.HemisphereLight(number,number,number).deallocate: expected {() => void} but found nothing
+THREE.PointLight(number,number,number).boundRadius: expected number but found nothing
+THREE.PointLight(number,number,number).boundRadiusScale: expected number but found nothing
+THREE.PointLight(number,number,number).deallocate: expected {() => void} but found nothing
+THREE.SpotLight(number,number,number,number,number).boundRadius: expected number but found nothing
+THREE.SpotLight(number,number,number,number,number).boundRadiusScale: expected number but found nothing
+THREE.SpotLight(number,number,number,number,number).deallocate: expected {() => void} but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).id: expected number but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).name: expected string but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).opacity: expected number but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).transparent: expected boolean but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).blending: expected THREE.Blending but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).blendSrc: expected THREE.BlendingDstFactor but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).blendDst: expected THREE.BlendingSrcFactor but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).blendEquation: expected THREE.BlendingEquation but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).depthTest: expected boolean but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).depthWrite: expected boolean but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).polygonOffset: expected boolean but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).polygonOffsetFactor: expected number but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).polygonOffsetUnits: expected number but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).alphaTest: expected number but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).overdraw: expected boolean but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).visible: expected boolean but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).side: expected THREE.Side but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).needsUpdate: expected boolean but found nothing
+THREE.MeshFaceMaterial(THREE.Material[]).dispose: expected {() => void} but found nothing
+THREE.ParticleDOMMaterial: expected {new(element:HTMLElement) => THREE.ParticleDOMMaterial} but found nothing
+THREE.Bone(THREE.SkinnedMesh).boundRadius: expected number but found nothing
+THREE.Bone(THREE.SkinnedMesh).boundRadiusScale: expected number but found nothing
+THREE.Bone(THREE.SkinnedMesh).deallocate: expected {() => void} but found nothing
+THREE.Line(THREE.Geometry,THREE.LineDashedMaterial,number).boundRadius: expected number but found nothing
+THREE.Line(THREE.Geometry,THREE.LineDashedMaterial,number).boundRadiusScale: expected number but found nothing
+THREE.Line(THREE.Geometry,THREE.LineDashedMaterial,number).deallocate: expected {() => void} but found nothing
+THREE.Line(THREE.Geometry,THREE.LineBasicMaterial,number).boundRadius: expected number but found nothing
+THREE.Line(THREE.Geometry,THREE.LineBasicMaterial,number).boundRadiusScale: expected number but found nothing
+THREE.Line(THREE.Geometry,THREE.LineBasicMaterial,number).deallocate: expected {() => void} but found nothing
+THREE.Line(THREE.Geometry,THREE.ShaderMaterial,number).boundRadius: expected number but found nothing
+THREE.Line(THREE.Geometry,THREE.ShaderMaterial,number).boundRadiusScale: expected number but found nothing
+THREE.Line(THREE.Geometry,THREE.ShaderMaterial,number).deallocate: expected {() => void} but found nothing
+THREE.LOD().boundRadius: expected number but found nothing
+THREE.LOD().boundRadiusScale: expected number but found nothing
+THREE.LOD().deallocate: expected {() => void} but found nothing
+THREE.LOD().clone(): expected THREE.LOD but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshBasicMaterial).morphTargetForcedOrder: expected number but found object
+THREE.Mesh(THREE.Geometry,THREE.MeshBasicMaterial).boundRadius: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshBasicMaterial).boundRadiusScale: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshBasicMaterial).deallocate: expected {() => void} but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshDepthMaterial).morphTargetForcedOrder: expected number but found object
+THREE.Mesh(THREE.Geometry,THREE.MeshDepthMaterial).boundRadius: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshDepthMaterial).boundRadiusScale: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshDepthMaterial).deallocate: expected {() => void} but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshFaceMaterial).morphTargetForcedOrder: expected number but found object
+THREE.Mesh(THREE.Geometry,THREE.MeshFaceMaterial).boundRadius: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshFaceMaterial).boundRadiusScale: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshFaceMaterial).deallocate: expected {() => void} but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshLambertMaterial).morphTargetForcedOrder: expected number but found object
+THREE.Mesh(THREE.Geometry,THREE.MeshLambertMaterial).boundRadius: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshLambertMaterial).boundRadiusScale: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshLambertMaterial).deallocate: expected {() => void} but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshNormalMaterial).morphTargetForcedOrder: expected number but found object
+THREE.Mesh(THREE.Geometry,THREE.MeshNormalMaterial).boundRadius: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshNormalMaterial).boundRadiusScale: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshNormalMaterial).deallocate: expected {() => void} but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshPhongMaterial).morphTargetForcedOrder: expected number but found object
+THREE.Mesh(THREE.Geometry,THREE.MeshPhongMaterial).boundRadius: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshPhongMaterial).boundRadiusScale: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.MeshPhongMaterial).deallocate: expected {() => void} but found nothing
+THREE.Mesh(THREE.Geometry,THREE.ShaderMaterial).morphTargetForcedOrder: expected number but found object
+THREE.Mesh(THREE.Geometry,THREE.ShaderMaterial).boundRadius: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.ShaderMaterial).boundRadiusScale: expected number but found nothing
+THREE.Mesh(THREE.Geometry,THREE.ShaderMaterial).deallocate: expected {() => void} but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshBasicMaterial).morphTargetForcedOrder: expected number but found object
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshBasicMaterial).boundRadius: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshBasicMaterial).boundRadiusScale: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshBasicMaterial).deallocate: expected {() => void} but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshDepthMaterial).morphTargetForcedOrder: expected number but found object
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshDepthMaterial).boundRadius: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshDepthMaterial).boundRadiusScale: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshDepthMaterial).deallocate: expected {() => void} but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshFaceMaterial).morphTargetForcedOrder: expected number but found object
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshFaceMaterial).boundRadius: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshFaceMaterial).boundRadiusScale: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshFaceMaterial).deallocate: expected {() => void} but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshLambertMaterial).morphTargetForcedOrder: expected number but found object
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshLambertMaterial).boundRadius: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshLambertMaterial).boundRadiusScale: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshLambertMaterial).deallocate: expected {() => void} but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshNormalMaterial).morphTargetForcedOrder: expected number but found object
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshNormalMaterial).boundRadius: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshNormalMaterial).boundRadiusScale: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshNormalMaterial).deallocate: expected {() => void} but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshPhongMaterial).morphTargetForcedOrder: expected number but found object
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshPhongMaterial).boundRadius: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshPhongMaterial).boundRadiusScale: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.MeshPhongMaterial).deallocate: expected {() => void} but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.ShaderMaterial).morphTargetForcedOrder: expected number but found object
+THREE.MorphAnimMesh(THREE.Geometry,THREE.ShaderMaterial).boundRadius: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.ShaderMaterial).boundRadiusScale: expected number but found nothing
+THREE.MorphAnimMesh(THREE.Geometry,THREE.ShaderMaterial).deallocate: expected {() => void} but found nothing
+THREE.Particle(THREE.Material).boundRadius: expected number but found nothing
+THREE.Particle(THREE.Material).boundRadiusScale: expected number but found nothing
+THREE.Particle(THREE.Material).deallocate: expected {() => void} but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ParticleBasicMaterial).boundRadius: expected number but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ParticleBasicMaterial).boundRadiusScale: expected number but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ParticleBasicMaterial).deallocate: expected {() => void} but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ParticleCanvasMaterial).boundRadius: expected number but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ParticleCanvasMaterial).boundRadiusScale: expected number but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ParticleCanvasMaterial).deallocate: expected {() => void} but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ParticleDOMMaterial).boundRadius: expected number but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ParticleDOMMaterial).boundRadiusScale: expected number but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ParticleDOMMaterial).deallocate: expected {() => void} but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ShaderMaterial).boundRadius: expected number but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ShaderMaterial).boundRadiusScale: expected number but found nothing
+THREE.ParticleSystem(THREE.Geometry,THREE.ShaderMaterial).deallocate: expected {() => void} but found nothing
+THREE.Ribbon(THREE.Geometry,THREE.Material).boundRadius: expected number but found nothing
+THREE.Ribbon(THREE.Geometry,THREE.Material).boundRadiusScale: expected number but found nothing
+THREE.Ribbon(THREE.Geometry,THREE.Material).deallocate: expected {() => void} but found nothing
+THREE.SkinnedMesh.offsetMatrix.setPosition(THREE.Vector3): expected THREE.Vector3 but found THREE.Matrix4
+THREE.Sprite(THREE.SpriteMaterial).boundRadius: expected number but found nothing
+THREE.Sprite(THREE.SpriteMaterial).boundRadiusScale: expected number but found nothing
+THREE.Sprite(THREE.SpriteMaterial).deallocate: expected {() => void} but found nothing
+THREE.WebGLRenderer(THREE.WebGLRendererParameters).shadowMapSoft: expected boolean but found nothing
+THREE.WebGLRenderer(THREE.WebGLRendererParameters).deallocateObject: expected {(object:THREE.Object3D) => void} but found nothing
+THREE.WebGLRenderer(THREE.WebGLRendererParameters).deallocateTexture: expected {(texture:THREE.Texture) => void} but found nothing
+THREE.WebGLRenderer(THREE.WebGLRendererParameters).deallocateRenderTarget: expected {(renderTarget:THREE.RenderTarget) => void} but found nothing
+THREE.WebGLRenderer2: expected {new(parameters?:THREE.WebGLRendererParameters) => THREE.WebGLRenderer2} but found nothing
+THREE.RenderableFace3().centroidWorld: expected THREE.Vector3 but found nothing
+THREE.RenderableFace3().centroidScreen: expected THREE.Vector3 but found nothing
+THREE.RenderableFace3().normalWorld: expected THREE.Vector3 but found nothing
+THREE.RenderableFace3().vertexNormalsWorld: expected THREE.Vector3[] but found nothing
+THREE.RenderableFace4().centroidWorld: expected THREE.Vector3 but found nothing
+THREE.RenderableFace4().centroidScreen: expected THREE.Vector3 but found nothing
+THREE.RenderableFace4().normalWorld: expected THREE.Vector3 but found nothing
+THREE.RenderableFace4().vertexNormalsWorld: expected THREE.Vector3[] but found nothing
+THREE.Scene().boundRadius: expected number but found nothing
+THREE.Scene().boundRadiusScale: expected number but found nothing
+THREE.Scene().deallocate: expected {() => void} but found nothing
+THREE.Animation(THREE.Mesh,string,THREE.AnimationInterpolation).hierarchy[0]: expected THREE.Bone but found object
+THREE.Animation(THREE.Mesh,string,THREE.AnimationInterpolation).interpolationType: expected THREE.AnimationInterpolation but found object|value 0
+THREE.Animation(THREE.Mesh,string,THREE.AnimationInterpolation).interpolateCatmullRom(THREE.Vector3[],number)[0]: expected THREE.Vector3 but found string|number|value 0
+THREE.Animation(THREE.Mesh,string,THREE.AnimationInterpolation).getNextKeyWith(string,number,number): expected THREE.KeyFrame but found value 0
+THREE.AnimationInterpolation: expected {new() => THREE.AnimationInterpolation} but found nothing
+THREE.AnimationMorphTarget: expected {new(root:THREE.Bone, data:any) => THREE.AnimationMorphTarget} but found nothing
+THREE.KeyFrameAnimation(THREE.Mesh,any,boolean).JITCompile: expected number but found value true|boolean
+THREE.KeyFrameAnimation(THREE.Mesh,any,boolean).hierarchy[0].keys: expected THREE.KeyFrame[] but found nothing
+THREE.KeyFrameAnimation(THREE.Mesh,any,boolean).isPlaying: expected number but found value false
+THREE.KeyFrameAnimation(THREE.Mesh,any,boolean).isPaused: expected number but found value true
+THREE.KeyFrameAnimation(THREE.Mesh,any,boolean).loop: expected number but found value true
+THREE.CombinedCamera(number,number,number,number,number,number,number).boundRadius: expected number but found nothing
+THREE.CombinedCamera(number,number,number,number,number,number,number).boundRadiusScale: expected number but found nothing
+THREE.CombinedCamera(number,number,number,number,number,number,number).deallocate: expected {() => void} but found nothing
+THREE.Curve().needsUpdate: expected boolean but found nothing
+THREE.Curve().getNormalVector: expected {(t:number) => THREE.Vector} but found nothing
+THREE.Curve().getTangent(number): expected THREE.Vector but found nothing
+THREE.LineCurve(THREE.Vector2,THREE.Vector2).needsUpdate: expected boolean but found nothing
+THREE.LineCurve(THREE.Vector2,THREE.Vector2).getNormalVector: expected {(t:number) => THREE.Vector2} but found nothing
+THREE.QuadraticBezierCurve(THREE.Vector2,THREE.Vector2,THREE.Vector2).needsUpdate: expected boolean but found nothing
+THREE.QuadraticBezierCurve(THREE.Vector2,THREE.Vector2,THREE.Vector2).getNormalVector: expected {(t:number) => THREE.Vector2} but found nothing
+THREE.CubicBezierCurve(number,number,number,number).needsUpdate: expected boolean but found nothing
+THREE.CubicBezierCurve(number,number,number,number).getNormalVector: expected {(t:number) => THREE.Vector2} but found nothing
+THREE.SplineCurve(THREE.Vector2[]).needsUpdate: expected boolean but found nothing
+THREE.SplineCurve(THREE.Vector2[]).getNormalVector: expected {(t:number) => THREE.Vector2} but found nothing
+THREE.EllipseCurve(number,number,number,number,number,number,boolean).needsUpdate: expected boolean but found nothing
+THREE.EllipseCurve(number,number,number,number,number,number,boolean).getNormalVector: expected {(t:number) => THREE.Vector2} but found nothing
+THREE.ArcCurve(number,number,number,number,number,boolean).needsUpdate: expected boolean but found nothing
+THREE.ArcCurve(number,number,number,number,number,boolean).getNormalVector: expected {(t:number) => THREE.Vector2} but found nothing
+THREE.LineCurve3(THREE.Vector3,THREE.Vector3).needsUpdate: expected boolean but found nothing
+THREE.LineCurve3(THREE.Vector3,THREE.Vector3).getNormalVector: expected {(t:number) => THREE.Vector3} but found nothing
+THREE.QuadraticBezierCurve3(THREE.Vector3,THREE.Vector3,THREE.Vector3).needsUpdate: expected boolean but found nothing
+THREE.QuadraticBezierCurve3(THREE.Vector3,THREE.Vector3,THREE.Vector3).getNormalVector: expected {(t:number) => THREE.Vector3} but found nothing
+THREE.CubicBezierCurve3(THREE.Vector3,THREE.Vector3,THREE.Vector3,THREE.Vector3).needsUpdate: expected boolean but found nothing
+THREE.CubicBezierCurve3(THREE.Vector3,THREE.Vector3,THREE.Vector3,THREE.Vector3).getNormalVector: expected {(t:number) => THREE.Vector3} but found nothing
+THREE.SplineCurve3(THREE.Vector3[]).needsUpdate: expected boolean but found nothing
+THREE.SplineCurve3(THREE.Vector3[]).getNormalVector: expected {(t:number) => THREE.Vector3} but found nothing
+THREE.ClosedSplineCurve3(THREE.Vector3[]).needsUpdate: expected boolean but found nothing
+THREE.ClosedSplineCurve3(THREE.Vector3[]).getNormalVector: expected {(t:number) => THREE.Vector3} but found nothing
+THREE.CurvePath().needsUpdate: expected boolean but found nothing
+THREE.CurvePath().getNormalVector: expected {(t:number) => THREE.Vector} but found nothing
+THREE.CurvePath().checkConnection(): expected boolean but found nothing
+THREE.Path(THREE.Vector2).actions[0]: expected THREE.PathActions but found object
+THREE.Path(THREE.Vector2).needsUpdate: expected boolean but found nothing
+THREE.Path(THREE.Vector2).getNormalVector: expected {(t:number) => THREE.Vector} but found nothing
+THREE.Path(THREE.Vector2).checkConnection(): expected boolean but found nothing
+THREE.Gyroscope().boundRadius: expected number but found nothing
+THREE.Gyroscope().boundRadiusScale: expected number but found nothing
+THREE.Gyroscope().deallocate: expected {() => void} but found nothing
+THREE.Shape.Utils.removeHoles(THREE.Vector2[],THREE.Vector2[][]).shape: expected THREE.Shape but found nothing
+THREE.Shape().useSpacedPoints: expected boolean but found nothing
+THREE.Shape().actions[0]: expected THREE.PathActions but found object
+THREE.Shape().needsUpdate: expected boolean but found nothing
+THREE.Shape().getNormalVector: expected {(t:number) => THREE.Vector} but found nothing
+THREE.Shape().checkConnection(): expected boolean but found nothing
+THREE.AsteriskGeometry(number,number).materials: expected THREE.Material[] but found nothing
+THREE.AsteriskGeometry(number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.AsteriskGeometry(number,number).animation: expected THREE.AnimationData but found nothing
+THREE.CircleGeometry(number,number,number,number).materials: expected THREE.Material[] but found nothing
+THREE.CircleGeometry(number,number,number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.CircleGeometry(number,number,number,number).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.CircleGeometry(number,number,number,number).animation: expected THREE.AnimationData but found nothing
+THREE.ConvexGeometry(THREE.Vector3).materials: expected THREE.Material[] but found nothing
+THREE.ConvexGeometry(THREE.Vector3).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.ConvexGeometry(THREE.Vector3).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.ConvexGeometry(THREE.Vector3).animation: expected THREE.AnimationData but found nothing
+THREE.CubeGeometry(number,number,number,number,number,number).materials: expected THREE.Material[] but found nothing
+THREE.CubeGeometry(number,number,number,number,number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.CubeGeometry(number,number,number,number,number,number).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.CubeGeometry(number,number,number,number,number,number).animation: expected THREE.AnimationData but found nothing
+THREE.CylinderGeometry(number,number,number,number,number,boolean).materials: expected THREE.Material[] but found nothing
+THREE.CylinderGeometry(number,number,number,number,number,boolean).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.CylinderGeometry(number,number,number,number,number,boolean).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.CylinderGeometry(number,number,number,number,number,boolean).animation: expected THREE.AnimationData but found nothing
+THREE.ExtrudeGeometry(THREE.Shape,any).materials: expected THREE.Material[] but found nothing
+THREE.ExtrudeGeometry(THREE.Shape,any).faces[0]: expected THREE.Face but found nothing
+THREE.ExtrudeGeometry(THREE.Shape,any).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.ExtrudeGeometry(THREE.Shape,any).animation: expected THREE.AnimationData but found nothing
+THREE.ExtrudeGeometry(THREE.Shape[],any).materials: expected THREE.Material[] but found nothing
+THREE.ExtrudeGeometry(THREE.Shape[],any).faces[0]: expected THREE.Face but found nothing
+THREE.ExtrudeGeometry(THREE.Shape[],any).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.ExtrudeGeometry(THREE.Shape[],any).animation: expected THREE.AnimationData but found nothing
+THREE.IcosahedronGeometry(number,number).materials: expected THREE.Material[] but found nothing
+THREE.IcosahedronGeometry(number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.IcosahedronGeometry(number,number).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.IcosahedronGeometry(number,number).animation: expected THREE.AnimationData but found nothing
+THREE.LatheGeometry(THREE.Vector3[],number,number).materials: expected THREE.Material[] but found nothing
+THREE.LatheGeometry(THREE.Vector3[],number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.LatheGeometry(THREE.Vector3[],number,number).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.LatheGeometry(THREE.Vector3[],number,number).animation: expected THREE.AnimationData but found nothing
+THREE.OctahedronGeometry(number,number).materials: expected THREE.Material[] but found nothing
+THREE.OctahedronGeometry(number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.OctahedronGeometry(number,number).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.OctahedronGeometry(number,number).animation: expected THREE.AnimationData but found nothing
+THREE.ParametricGeometry({(u:number, v:number) => THREE.Vector3},number,number,boolean).materials: expected THREE.Material[] but found nothing
+THREE.ParametricGeometry({(u:number, v:number) => THREE.Vector3},number,number,boolean).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.ParametricGeometry({(u:number, v:number) => THREE.Vector3},number,number,boolean).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.ParametricGeometry({(u:number, v:number) => THREE.Vector3},number,number,boolean).animation: expected THREE.AnimationData but found nothing
+THREE.PlaneGeometry(number,number,number,number).materials: expected THREE.Material[] but found nothing
+THREE.PlaneGeometry(number,number,number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.PlaneGeometry(number,number,number,number).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.PlaneGeometry(number,number,number,number).animation: expected THREE.AnimationData but found nothing
+THREE.PolyhedronGeometry(THREE.Vector3[],THREE.Face[],number,number).materials: expected THREE.Material[] but found nothing
+THREE.PolyhedronGeometry(THREE.Vector3[],THREE.Face[],number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.PolyhedronGeometry(THREE.Vector3[],THREE.Face[],number,number).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.PolyhedronGeometry(THREE.Vector3[],THREE.Face[],number,number).animation: expected THREE.AnimationData but found nothing
+THREE.ShapeGeometry(THREE.Shape,any).materials: expected THREE.Material[] but found nothing
+THREE.ShapeGeometry(THREE.Shape,any).faces[0]: expected THREE.Face but found nothing
+THREE.ShapeGeometry(THREE.Shape,any).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.ShapeGeometry(THREE.Shape,any).animation: expected THREE.AnimationData but found nothing
+THREE.ShapeGeometry(THREE.Shape[],any).materials: expected THREE.Material[] but found nothing
+THREE.ShapeGeometry(THREE.Shape[],any).faces[0]: expected THREE.Face but found nothing
+THREE.ShapeGeometry(THREE.Shape[],any).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.ShapeGeometry(THREE.Shape[],any).animation: expected THREE.AnimationData but found nothing
+THREE.SphereGeometry(number,number,number,number,number,number,number).phiStart: expected number but found nothing
+THREE.SphereGeometry(number,number,number,number,number,number,number).phiLength: expected number but found nothing
+THREE.SphereGeometry(number,number,number,number,number,number,number).thetaStart: expected number but found nothing
+THREE.SphereGeometry(number,number,number,number,number,number,number).thetaLength: expected number but found nothing
+THREE.SphereGeometry(number,number,number,number,number,number,number).materials: expected THREE.Material[] but found nothing
+THREE.SphereGeometry(number,number,number,number,number,number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.SphereGeometry(number,number,number,number,number,number,number).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.SphereGeometry(number,number,number,number,number,number,number).animation: expected THREE.AnimationData but found nothing
+THREE.TetrahedronGeometry(number,number).materials: expected THREE.Material[] but found nothing
+THREE.TetrahedronGeometry(number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.TetrahedronGeometry(number,number).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.TetrahedronGeometry(number,number).animation: expected THREE.AnimationData but found nothing
+THREE.TorusGeometry(number,number,number,number,number).materials: expected THREE.Material[] but found nothing
+THREE.TorusGeometry(number,number,number,number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.TorusGeometry(number,number,number,number,number).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.TorusGeometry(number,number,number,number,number).animation: expected THREE.AnimationData but found nothing
+THREE.TorusKnotGeometry(number,number,number,number,number,number,number).materials: expected THREE.Material[] but found nothing
+THREE.TorusKnotGeometry(number,number,number,number,number,number,number).faceUvs[0]: expected THREE.Vector2 but found object
+THREE.TorusKnotGeometry(number,number,number,number,number,number,number).faceVertexUvs[0][0]: expected THREE.Vector2 but found object
+THREE.TorusKnotGeometry(number,number,number,number,number,number,number).animation: expected THREE.AnimationData but found nothing
+THREE.AxisHelper(number).boundRadius: expected number but found nothing
+THREE.AxisHelper(number).boundRadiusScale: expected number but found nothing
+THREE.AxisHelper(number).deallocate: expected {() => void} but found nothing
+THREE.CameraHelper(THREE.Camera).boundRadius: expected number but found nothing
+THREE.CameraHelper(THREE.Camera).boundRadiusScale: expected number but found nothing
+THREE.CameraHelper(THREE.Camera).deallocate: expected {() => void} but found nothing
+THREE.ImmediateRenderObject().boundRadius: expected number but found nothing
+THREE.ImmediateRenderObject().boundRadiusScale: expected number but found nothing
+THREE.ImmediateRenderObject().deallocate: expected {() => void} but found nothing
+THREE.LensFlare(THREE.Texture,number,number,THREE.Blending,number).boundRadius: expected number but found nothing
+THREE.LensFlare(THREE.Texture,number,number,THREE.Blending,number).boundRadiusScale: expected number but found nothing
+THREE.LensFlare(THREE.Texture,number,number,THREE.Blending,number).deallocate: expected {() => void} but found nothing
+THREE.MorphBlendMesh(THREE.Geometry,THREE.Material).firstAnimation: expected string but found nothing
+THREE.MorphBlendMesh(THREE.Geometry,THREE.Material).morphTargetForcedOrder: expected number but found object
+THREE.MorphBlendMesh(THREE.Geometry,THREE.Material).boundRadius: expected number but found nothing
+THREE.MorphBlendMesh(THREE.Geometry,THREE.Material).boundRadiusScale: expected number but found nothing
+THREE.MorphBlendMesh(THREE.Geometry,THREE.Material).deallocate: expected {() => void} but found nothing

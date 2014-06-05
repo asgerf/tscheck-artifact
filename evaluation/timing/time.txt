@@ -1,0 +1,89 @@
+ACE		
+	# call signatures = 4
+	real	0m29.033s
+	user	0m28.818s
+	sys	0m0.300s
+
+	time per signature = 12.2 (too few call sigs to be reliable)
+
+BOX2DWEB
+	# call signatures = 117
+
+	real	1m32.605s
+	user	1m32.158s
+	sys	0m0.604s
+
+	time per signature = 0.786324786
+
+D3
+	# call signatures = 308
+
+	real	5m13.288s
+	user	5m12.416s
+	sys	0m1.468s
+
+	time per signature = 0.987179487
+
+FABRICJS
+	# call signatures = 53
+
+	real	1m15.881s
+	user	1m15.621s
+	sys	0m0.456s
+
+	time per signature = 1.41509434
+
+JQUERY
+	# call signatures = 47
+
+	real	1m29.231s
+	user	1m29.046s
+	sys	0m0.448s
+
+	time per signature = 1.893617021
+
+LEAFLET
+	# call signatures = 95
+
+	real	2m5.639s
+	user	2m5.048s
+	sys	0m0.928s
+
+	time per signature = 1.315789474
+
+PIXI
+	# call signatures = 41
+
+	real	0m49.326s
+	user	0m49.115s
+	sys	0m0.328s
+
+	time per signature = 1.195121951
+
+SUGAR
+	# call signatures = 420
+
+	real	10m30.192s
+	user	10m28.279s
+	sys	0m3.136s
+
+	time per signature = 1.495238095
+
+THREEJS
+	# call signatures = 431
+
+	real	8m2.883s
+	user	8m1.118s
+	sys	0m2.584s
+
+	time per signature = 1.116009281
+
+UNDERSCORE
+	# call signatures = 115
+
+	real	1m4.525s
+	user	1m4.160s
+	sys	0m0.452s
+
+	time per signature = 0.556521739 (discarded from avg because it is the smallest number, symmetric with ACE)
+

@@ -1,0 +1,14 @@
+Box2D.Collision.b2ContactID().Key: expected number but found nothing
+Box2D.Collision.b2DynamicTree().GetFatAABB(Box2D.Collision.b2DynamicTreeNode): expected Box2D.Collision.b2AABB but found nothing
+Box2D.Collision.b2Manifold().m_type: expected number but found nothing
+Box2D.Collision.b2ManifoldPoint().m_localpoint: expected Box2D.Common.Math.b2Vec2 but found nothing
+Box2D.Collision.b2OBB: expected {new() => Box2D.Collision.b2OBB} but found nothing
+Box2D.Collision.Shapes.b2EdgeChainDef().vertices: expected Box2D.Common.Math.b2Vec2 but found object
+Box2D.Collision.Shapes.b2EdgeShape(Box2D.Common.Math.b2Vec2,Box2D.Common.Math.b2Vec2).Corner1IsConvex(): expected boolean but found nothing
+Box2D.Collision.Shapes.b2EdgeShape(Box2D.Common.Math.b2Vec2,Box2D.Common.Math.b2Vec2).Corner2IsConvex(): expected boolean but found nothing
+Box2D.Collision.Shapes.b2Shape.startsInsideCollide: expected number but found nothing
+Box2D.Dynamics.Contacts.b2Contact().GetFixtureA(): expected Box2D.Dynamics.b2Fixture but found nothing
+Box2D.Dynamics.Contacts.b2Contact().GetFixtureB(): expected Box2D.Dynamics.b2Fixture but found nothing
+Box2D.Dynamics.Contacts.b2Contact().GetNext(): expected Box2D.Dynamics.Contacts.b2Contact but found nothing
+Box2D.Dynamics.Joints.b2PullyJoint: expected {new() => Box2D.Dynamics.Joints.b2PullyJoint} but found nothing
+Box2D.Dynamics.Joints.b2PullyJointDef: expected {new() => Box2D.Dynamics.Joints.b2PullyJointDef} but found nothing

@@ -1,0 +1,11 @@
+fabric.createCanvasForNode: expected {(width:number, height:number) => fabric.ICanvas} but found nothing
+fabric.Circle.fromElement(SVGElement,fabric.ICircleOptions).lockMovementX: expected boolean but found nothing
+fabric.Line.fromElement(SVGElement,any).x1: expected number but found nothing
+fabric.Path.fromElement(SVGElement,any).tostring: expected {() => string} but found nothing
+fabric.Point(any,any).tostring: expected {() => string} but found nothing
+fabric.Point(any,any).add(fabric.IPoint).tostring: expected {() => string} but found nothing
+fabric.Image.fromURL(string): expected fabric.IImage but found nothing
+fabric.Image.fromURL(string,{(image:fabric.IImage) => any}): expected fabric.IImage but found nothing
+fabric.Image.fromURL(string,{(image:fabric.IImage) => any},fabric.IObjectOptions): expected fabric.IImage but found nothing
+fabric.util.falseFunction(): expected {() => boolean} but found value false
+fabric.util.populateWithProperties(any,any,any): expected any[] but found nothing

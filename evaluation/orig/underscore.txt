@@ -1,0 +1,4 @@
+_.object<TResult>(_.List<string>,_.List<any>): expected generic type TResult but found object
+_.object<TResult>(any[]): expected generic type TResult but found object
+_.object<TResult>(_.List<any>,any): expected generic type TResult but found object
+_.value: expected {<T,TResult>(obj:T) => TResult} but found nothing

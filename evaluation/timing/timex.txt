@@ -1,0 +1,11 @@
+#				calls	seconds
+ace				4		29
+box2dweb		117		92
+d3				308		312
+fabricsjs		53		75
+jquery			47		89
+leaflet			95		125
+pixi			41		49
+sugar			420		628
+threejs			431		481
+underscore		115		64
