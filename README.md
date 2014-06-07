@@ -101,6 +101,8 @@ The analysis time was measured using the `time` command.
 
 The `no-warn` flag squelches ordinary output (but the analysis is still carried out), and the `stats` flag prints the number of function signatures checked.
 
+The `time-benchmarks` command will run the above command on every benchmark and store the result in `output/time.txt`.
+
 The `evaluation/timing` folder contains the times we measured for use in the paper.
 
 
