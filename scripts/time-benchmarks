@@ -1,8 +1,9 @@
 set -e
 DIR=`dirname $0`
 TESTDIR="$DIR/../benchmarks"
-OUTDIR="$DIR/../output"
-mkdir -p $OUTDIR
+OUTFILE="$DIR/../output/time.txt"
+mkdir -p `dirname $OUTFILE`
+rm -f $OUTFILE
 decls=$TESTDIR/*/*.d.ts
 for decl in $decls
 do
@@ -12,6 +13,7 @@ do
 	then
 		name=$(basename $prefix)
 		echo $name
-		$DIR/tscheck $decl >$OUTDIR/$name.txt --verbose $*
+		echo $name >> $OUTFILE
+		(time $DIR/tscheck $decl --no-warn --stats $*) >>$OUTFILE 2>>$OUTFILE
 	fi
 done
