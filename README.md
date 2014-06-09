@@ -1,21 +1,48 @@
-OOPSLA'14 Artifact Submission. 
+Getting Started
+===============
 
-The supplied VM contains the tool as it was when the paper was submitted.
-
-For the newest version of the tool, see the [github page](https://github.com/asgerf/tscheck).
-
-Using the VM
-============
-
-1. Start Oracle VirtualBox 4.3.12
+1. Install and start [Oracle VirtualBox 4.3.12](https://www.virtualbox.org/wiki/Downloads)
 2. Create a new virtual machine
     - configure it as a Linux, 32-bit Debian OS
     - use the supplied file as the hard drive
 3. Start the VM
 4. Log in as user `oopsla` with password `oopsla`.
 
-Files in the Artifact
----------------------
+To quickly check if things are working, run the command:
+
+    tscheck --path d3.scale ~/tscheck-artifact/benchmarks/d3/d3
+
+It should output the following:
+
+    d3.scale.theshold: expected {() => D3.Scale.ThresholdScale} but found nothing
+
+(This warning corresponds to the example from Figure 1).
+
+### General Usage
+
+The command `tscheck` is available on the PATH.
+
+To check `foo.d.ts` against the library `foo.js`, run the command:
+
+    tscheck foo.js foo.d.ts
+    
+Or simply:
+    
+    tscheck foo
+
+To try this out on the whole `d3` benchmark (takes several minutes):
+
+    tscheck ~/tscheck-artifact/benchmarks/d3/d3
+
+### Output
+
+tscheck prints a series of warnings, one warning per line, in no particular order.
+
+The warnings have the format `foo.bar.baz: expected X but found Y`. This means the value one would get by evaluating the pseudo-expression `foo.bar.baz` was expected to have type `X`, but tscheck found something of type `Y` instead.
+
+If there is no output, it means tscheck found no bugs in the `.d.ts` file.
+
+### Files in the Artifact
 
 All relevant files are in the `tscheck-artifact` folder and its subfolders:
 
@@ -36,34 +63,9 @@ All relevant files are in the `tscheck-artifact` folder and its subfolders:
 
 `output`: stores the output from the `run-benchmarks` script.
 
-Usage
-=====
 
-The command `tscheck` is available on the PATH.
-
-To check `foo.d.ts` against the library `foo.js`, run the command:
-
-    tscheck foo.js foo.d.ts
-    
-Or simply:
-    
-    tscheck foo
-
-To try this out on the `d3` benchmark, run:
-
-    tscheck ~/tscheck-artifact/benchmarks/d3/d3
-
-Output
-------
-
-tscheck prints a series of warnings, one warning per line, in no particular order.
-
-The warnings have the format `foo.bar.baz: expected X but found Y`. This means the value one would get by evaluating the pseudo-expression `foo.bar.baz` was expected to have type `X`, but tscheck found something of type `Y` instead.
-
-If there is no output, it means tscheck found no bugs in the `.d.ts` file.
-
-Run Benchmarks
-==============
+Evaluation
+==========
 
 The following command runs `tscheck` on all benchmarks (it takes a while to complete):
 
@@ -73,8 +75,7 @@ The results are stored in the `output` folder.
 
 (In the supplied VM, this script has already been run, but you may choose to run it again.)
 
-Classification of Warnings
-==========================
+### Classification of Warnings
 
 In the `evaluation` folder, there are text files for each benchmark containing the generated non-duplicate warnings annotated as follows:
 
@@ -92,8 +93,7 @@ The classification was done manually based on the library documentation, source 
 
 The `evaluation/dups` folder contains warnings that have been classified as duplicates. For a warning to be considered a duplicate, it must be due to a genuine fixable bug and the duplicates must be likely to go away once the bug is fixed.
 
-Analysis Time
--------------
+### Measuring Execution Time
 
 The analysis time was measured using the `time` command.
 
@@ -106,8 +106,8 @@ The `time-benchmarks` command will run the above command on every benchmark and 
 The `evaluation/timing` folder contains the times we measured for use in the paper.
 
 
-Examples in the Paper
-=====================
+### Examples in the Paper
+The following describes the warnings used as basis for the examples in the paper.
 
 ***Figure 1.***
 Example is based on the following warning:
